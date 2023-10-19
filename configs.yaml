@@ -1,0 +1,53 @@
+defaults:
+
+  seed: 0
+  task: dummy_disc
+  base_path: C:\Users\geon\PycharmProjects\crafter-llm-actor
+  secrets_path: secrets.yaml
+  log_config_path: logger.ini
+  chroma_dir_path: data\chroma
+  reference_image_dir_path: res\img
+  action_list_path: res\text\actions.csv
+  knowledge_text_path: res\text\solid.txt
+  chroma_retriever_name: solid, Hafner_-_2022_-_Benchmarking_the_Spectrum_of_Agent_Capabilities
+  log_every: 30
+  auto_reload: true
+
+  llm: llm5
+  logdir: C:\Users\geon\PycharmProjects\crafter-llm-actor\logs\20230831-090833
+  reload_after_death: true
+llm1:
+  provider: huggingface
+  model_id: tatsu-lab\alpaca-7b-wdiff
+
+llm2:
+  provider: huggingface
+  model_id: stabilityai\stablelm-tuned-alpha-7b
+
+llm3:
+  provider: openai
+  model_id: text-curie-001
+  token_usage_limit: -66244
+
+llm4:
+  provider: openai
+  model_id: text-davinci-003
+  token_usage_limit: -60939
+
+llm5:
+  provider: openai
+  model_id: gpt-3.5-turbo
+  token_usage_limit: 41273
+
+llm_mipal1:
+  provider: mipal10
+  model_id: gpt-3.5-turbo
+  token_usage_limit: 0
+
+llm_mipal2:
+  provider: mipal10
+  model_id: text-davinci-003
+  token_usage_limit: 0
+
+debug:
+  fps: 1

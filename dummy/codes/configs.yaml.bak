@@ -1,0 +1,33 @@
+defaults:
+
+  seed: 0
+  task: dummy_disc
+  logdir: C:\Users\geon\PycharmProjects\crafter-llm-actor\logs\20230611-204554
+  log_every: 30
+  auto-reload: true
+  llm: llm5
+
+  reload_after_death: true
+llm1:
+  provider: huggingface
+  model_id: tatsu-lab/alpaca-7b-wdiff
+
+llm2:
+  provider: huggingface
+  model_id: stabilityai/stablelm-tuned-alpha-7b
+
+llm3:
+  provider: openai
+  model_id: text-curie-001
+
+llm4:
+  provider: openai
+  model_id: text-davinci-002
+
+llm5:
+  provider: openai
+  model_id: gpt-3.5-turbo
+  token_usage_limit: 100000
+
+debug:
+  fps: 20

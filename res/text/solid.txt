@@ -1,0 +1,3 @@
+to collect creature or material, player must be facing appropriate orientation to the object, the player had to execute a "Do".
+to collect wood, you don't need any tools.
+to change the player orientation, simply mode in that orientation.

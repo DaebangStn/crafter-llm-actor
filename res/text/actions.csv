@@ -1,0 +1,18 @@
+action_name, requirements
+Noop, Always applicable
+Move Left, Flat ground left to the agent
+Move Right, Flat ground right to the agent
+Move Up, Flat ground above the agent
+Move Down, Flat ground below the agent
+Do, Facing creature or material; have necessary tool
+Sleep, Energy level is below maximum
+Place Stone, Stone in inventory
+Place Table, Wood in inventory
+Place Furnace, Stone in inventory
+Place Plant, Sapling in inventory
+Make Wood Pickaxe, Nearby table; wood in inventory
+Make Stone Pickaxe, Nearby table; wood, stone in inventory
+Make Iron Pickaxe, Nearby table, furnace; wood, coal, iron an inventory
+Make Wood Sword, Nearby table; wood in inventory
+Make Stone Sword, Nearby table; wood, stone in inventory
+Make Iron Sword, Nearby table, furnace; wood, coal, iron in inventory
